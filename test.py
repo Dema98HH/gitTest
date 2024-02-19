@@ -1,3 +1,3 @@
 
-def test_func():
-    print('Hi from test_func !!')
+def test_func(name: str) -> None:
+    print(f'Hi {name} from test_func !!')
